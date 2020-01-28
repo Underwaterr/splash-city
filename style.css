@@ -1,0 +1,38 @@
+@font-face {
+  font-family: "Cooper Hewitt";
+  src: url("cooper-hewitt-heavy.otf");
+}
+
+@font-face {
+  font-family: "Libre Baskerville";
+  src: url("libre-baskerville-regular.otf");
+}
+
+html { font-size: 12px; }
+@media (min-width: 600px) {
+  html { font-size: 24px; }
+}
+
+body {
+  margin: 2rem;
+  padding: 0;
+  line-height: 1;
+  font-family: "Libre Baskerville";
+}
+
+h1 {
+  margin: 0;
+  font-size: 6rem;
+  text-transform: uppercase;
+  font-family: "Cooper Hewitt";
+  font-weight: normal;
+}
+
+p {
+  margin: 0;
+  font-size: 1rem;
+}
+
+li {
+  margin-bottom: 0.25rem;
+}
